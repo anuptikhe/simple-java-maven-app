@@ -49,7 +49,7 @@
         <artifactId>maven-enforcer-plugin</artifactId>
         <version>3.0.0-M3</version>
         <executions>
-          <execution>
+          <!-- <execution>
             <id>enforce-maven</id>
             <goals>
               <goal>enforce</goal>
@@ -61,7 +61,7 @@
                 </requireMavenVersion>
               </rules>
             </configuration>
-          </execution>
+          </execution> -->
         </executions>
       </plugin>
     </plugins>
